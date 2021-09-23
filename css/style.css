@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&dispay=swap');
+
+body {
+   font-family: 'Muli', sans-serif;
+   overflow: hidden;
+   margin: 0;
+   background-color: #111;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   width: 100%;
+   display: flex;
+   padding: 0 20px;
+}
+
+.slide {
+   position: relative;
+   height: 80vh;
+   border-radius: 20px;
+   margin: 10px;
+   cursor: pointer;
+   color: #fff;
+   flex: 1;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   transition: all 500ms ease-in-out;
+}
+
+.slideTittle {
+   position: absolute;
+   font-size: 24px;
+   bottom: 20px;
+   left: 20px;
+   margin: 0;
+   opacity: 0;
+}
+
+.firstSlide {
+   background-image: url('../images/Ferarri.jpg');
+}
+.secondSlide {
+   background-image: url('../images/Lamborgini.jpg');
+}
+.thirdSlide {
+   background-image: url('../images/Camaro.jpg');
+}
+.fourthSlide {
+   background-image: url('../images/Aston-Martin.jpg');
+}
+.fifthSlide {
+   background-image: url('../images/Tesla.jpg');
+}
+
+.slide.active {
+   flex: 10;
+}
+
+.slide.active .slideTittle {
+   opacity: 1;
+   transition: opacity .3s ease-in .4s;
+}
