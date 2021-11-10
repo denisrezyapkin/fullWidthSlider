@@ -41,19 +41,19 @@ body {
 }
 
 .firstSlide {
-   background-image: url('../images/Ferarri.jpg');
+   background-image: url('../images/gta5.jpg');
 }
 .secondSlide {
-   background-image: url('../images/Lamborgini.jpg');
+   background-image: url('../images/aco.jpg');
 }
 .thirdSlide {
-   background-image: url('../images/Camaro.jpg');
+   background-image: url('../images/w3wh.jpg');
 }
 .fourthSlide {
-   background-image: url('../images/Aston-Martin.jpg');
+   background-image: url('../images/metro.jpg');
 }
 .fifthSlide {
-   background-image: url('../images/Tesla.jpg');
+   background-image: url('../images/cyberpunk2077.jpg');
 }
 
 .slide.active {
